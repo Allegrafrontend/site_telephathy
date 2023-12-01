@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DEBB91;
+}
+.container{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+img{
+    border-radius: 4px;
+}
+header{
+    background-color:#934372;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    font-family: 'Handjet', sans-serif;
+    font-size:38px;
+    color: #e96518;
+}
+p{
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size:17px;
+}
+header h1{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #D47743;
+    font-family: 'Handjet', sans-serif;
+    font-size: 50px;
+}
+.container_nav li a{
+    text-decoration: none;
+    color: #D47743;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 24px;
+}
+.container_nav li a:hover{
+    text-decoration: underline;
+    color: #e96518;
+}
+.container_nav li{
+    list-style: none;
+    display:inline;
+    margin-right: 8px;
+}
+#a_festa img{
+    margin-top: 16px;
+    margin-right: 16px;
+    height: 540px;
+    padding: 4px;
+    background-color: #00000021;
+}
+.container #a_festa{
+    display: flex;
+}
+#a_festa h2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#a_festa li{
+    list-style: none;
+    display:inline;
+    margin-right: 8px;
+    
+}
+#a_festa ul img{
+    display: inline;
+    height: 80px;
+    margin:50px 100px;
+}
+.social-list li{
+    list-style: none;
+    display:inline;
+    margin-right: 8px;
+}
+.social-list li img{
+    list-style: none;
+    display:inline;
+    margin: 8px 8px;
+    height: 50px;
+}
+.container #contact{
+    margin-top: 16px;
+}
+#a_festa form input{
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border: none;
+}
+#a_festa button{
+    margin-bottom: 16px;
+    padding: 16px;
+    background-color: #934372bd;
+    border: none;
+    font-family: 'Handjet', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #5c2505;
+}
+#a_festa button:hover{
+    background-color: #934372;
+    border-radius: 4px;
+}
+#a_festa input:hover{
+    background-color: #d47843a8;
+    border-radius: 4px;
+}
+.sponsors li{
+    list-style: none;
+    display:inline;
+    margin-right: 18px;
+}
+.sponsors li img{
+    height: 50px;
+    margin-top: 28px;
+}
+#a_festa form input,
+#a_festa button{
+    width: 320px;
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+    
+}
+#a_festa .tickets,
+#a_festa form input,
+#a_festa button{
+    margin-left: 280px;
+}
+.container_contact{
+    display: flex;
+    width: 1280px;
+    max-width: 100%;
+    margin: 16px auto;
+
+}
+.container_contact #tickets{
+    margin-left: 100px;
+}
+footer{
+    color: #e96518;
+    background-color: #934372;
+    padding: 16px;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size:17px;
+}
